@@ -10,6 +10,7 @@ program
 
 program
   .command('info [options]', 'get information about compatable Meross smart device')
+  .command('switch [options]', 'switch channels on your Meross smart device')
   .command('setup [options]', 'setup compatable Meross smart device')
 
 program.parse(process.argv)
